@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
+    --primary: #000000;
+    --primary-rgb: 0, 0, 0;
+    --secondary: #f0f0f0;
+    --body-bg: #ffffff;
+
+    --family-primary: "Plus Jakarta Sans", sans-serif;
+    --family-secondary: "Anton", sans-serif;
+
+
+    
+
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    background-color: var(--body-bg);
+    scroll-behavior: smooth;
+    font-family: var(--family-primary);
+
+}
+
+@media (max-width: 47.935rem){
+    html, body{
+        font-size: 0.75rem;
+    }
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font-family);
+    color: var(--primary);
+    font-weight: 43.75rem;
+    
+}
